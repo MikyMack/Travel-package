@@ -330,3 +330,6 @@ try{
     switcherRtl?.addEventListener("click" ,changeLayout )
 }
 catch(err){}
+document.getElementById("packageLink").addEventListener("click", function() {
+    window.location.href = "packages.html";
+});
